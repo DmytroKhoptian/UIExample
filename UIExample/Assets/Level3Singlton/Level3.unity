@@ -445,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square3
       objectReference: {fileID: 0}
+    - target: {fileID: 7210784669152640106, guid: 7f86f1df9a2abd14ab958b1a97df7ca8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7648409645952634429, guid: 7f86f1df9a2abd14ab958b1a97df7ca8, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -513,6 +517,10 @@ PrefabInstance:
     - target: {fileID: 7210784669152640106, guid: 7f86f1df9a2abd14ab958b1a97df7ca8, type: 3}
       propertyPath: m_Name
       value: Square3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210784669152640106, guid: 7f86f1df9a2abd14ab958b1a97df7ca8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7648409645952634429, guid: 7f86f1df9a2abd14ab958b1a97df7ca8, type: 3}
       propertyPath: m_RootOrder

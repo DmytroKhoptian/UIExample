@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Circle2 : MonoBehaviour
 {
-    private UIManager2 uIManager;
+    public UIManager2 uIManager;
     private bool isTouch;
 
     [SerializeField] private LayerMask groundLayer;
@@ -16,7 +16,7 @@ public class Circle2 : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    { 
         if (((1 << collision.gameObject.layer) & groundLayer) != 0)
         {
             if (!isTouch)
