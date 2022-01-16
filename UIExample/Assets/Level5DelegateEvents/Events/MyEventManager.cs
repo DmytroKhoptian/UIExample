@@ -9,14 +9,16 @@ using UnityEngine;
 public class MyEventManager : MonoBehaviour
 {
 
-    public delegate void DropedAction();
+    public delegate void DropedAction(int score);
     public static event DropedAction OnDropped;
 
+    [SerializeField] private int score;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        OnDropped?.Invoke();
+        score++;
+        OnDropped?.Invoke(score);
 
         //if (OnDropped != null)
         //    OnDropped();
